@@ -1,0 +1,21 @@
+{
+	"name": "skylab-preCourse-Project",
+	"version": "1.0.0",
+	"description": "<img src=\"http://www.skylabcoders.com/images/403/default.png\" alt=\"Skylab\" style=\"width:200px;height:45px;\">",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "nodemon server.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/agandia9/skylab-preCourse-project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/agandia9/skylab-preCourse-project/issues"
+	},
+	"homepage": "https://github.com/agandia9/skylab-preCourse-project#readme"
+}

@@ -30,13 +30,17 @@
 				<div class="btn-group " data-toggle="buttons">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcamedy: true}" value="CodeAcamedy">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {coderByte: true}" value="CoderByte">
+					<!-- <input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcademy: true} && {coderByte: true}" value="CB & CA"> -->
 				</div>
 				<div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
-					<h3>Name: {{alumn.name}}</h3>
-					<p>Num ID => {{alumn.id}}</p>
-					<p>CA => {{alumn.codeAcamedy}}</p>
-					<p>CB => {{alumn.coderByte}}</p>
-					<input class="tracingInputs" name="" id="" cols="60" rows="5" ng-value="alumn.tracing"></input>
+					<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
+					<p>Programming experience => {{alumn.experienceProgramming}}</p>
+					<p>Last Work => {{alumn.lastWork}}</p>
+					<p>CA Test => {{alumn.codeAcamedy}} || Username: </p>
+					<p>CB Test=> {{alumn.coderByte}} || Username: </p>
+					<p>Beatles exam => {{alumn.beatles}} </p>
+					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments"></input>
+					<button class="btn-success">Update</button>
 				</div>
 				</ul>
 			</div>
