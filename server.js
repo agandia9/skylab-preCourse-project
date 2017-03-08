@@ -19,10 +19,6 @@ server.use("/api/students", function(req, res, next) {
 		res.setHeader('Content-Type', 'application/json');
 		res.send(JSON.stringify(router));
 	}
-	if (req.method === 'POST') {
-		res.setHeader('Content-Type', 'application/json');
-		console.log('=>' + req.body)
-	}
 	next()
 })
 

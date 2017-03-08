@@ -1,18 +1,14 @@
 {
   "students": [
     {
-      "id": 1,
       "name": "Lorem",
       "experienceProgramming": false,
       "lastWork": "lorem",
       "codeAcamedy": false,
       "coderByte": true,
-      "comments": [
-        "SESSION1 OK",
-        "MINI.PROJECT1 OK",
-        " SESSION2 OK"
-      ],
-      "beatles": "ok"
+      "comments": "SESSION1 OK,MINI.PROJECT1 OK",
+      "beatles": "ok",
+      "id": 1
     },
     {
       "id": 2,
@@ -69,7 +65,7 @@
       "lastWork": "lorem",
       "codeAcamedy": false,
       "coderByte": true,
-      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK, SESSION 3 BAD",
+      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK, jgbafluycfevwouytcfvewoufcv",
       "beatles": "ok",
       "id": 6
     }

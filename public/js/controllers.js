@@ -9,10 +9,10 @@ app.controller('alumniCtrl', function($scope, $http) {
 			console.log ( $scope.alumni )
 		})
 	$scope.update = function (alumn){
-
+	let num = alumn.id
 	delete alumn.id
 	console.log(alumn)
-	$http.post(url, alumn)
+	$http.put(url+'/'+num, alumn, num)
 		// .then( ({ data }) => {
 		// 	$scope.alumni = data 
 		// 	console.log ( $scope.alumni )
