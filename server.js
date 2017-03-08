@@ -14,12 +14,16 @@ server.use(middlewares)
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser)
 
-server.use(function(req, res, next) {
-	if (req.method === 'GET') {
+server.use("/api/students", function(req, res, next) {
+	if (req.method === 'PUT') {
 		res.setHeader('Content-Type', 'application/json');
-		res.send(JSON.stringify({router}));
-		console.log('send correctly')
+		res.send(JSON.stringify(router));
 	}
+	if (req.method === 'POST') {
+		res.setHeader('Content-Type', 'application/json');
+		console.log('=>' + req.body)
+	}
+	next()
 })
 
 // Use default router

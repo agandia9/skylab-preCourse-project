@@ -16,7 +16,7 @@
 <body>
 	<div class="content">
 		<div class="wrapper col-lg-12">
-			<div class="leftSide col-lg-5 ">
+			<div class="leftSide col-lg-5">
 				<h1 class="display-3">Welcome to @SKYLABCODERS! </h1>
 				<h2> Hello, @user </h2>
 				<p class="lead"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis architecto praesentium sint ab quisquam corporis eveniet nostrum aliquid dicta, autem sequi incidunt quas iure vitae possimus quos eos nemo. Sit.</span></p>
@@ -24,9 +24,6 @@
 					<a class="btn btn-primary btn-lg" href="#" role="button" id="result">Learn more</a>
 			</div>
 			<div class=" col-lg-6 rightSide " ng-controller="alumniCtrl as alumni">
-				<div class="btn-group" ng-repeat="ss in studySessions">
-					<input type="button" value="{{ss.desc}}">
-				</div>
 				<div class="btn-group " data-toggle="buttons">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcamedy: true}" value="CodeAcamedy">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {coderByte: true}" value="CoderByte">
@@ -39,8 +36,8 @@
 					<p>CA Test => {{alumn.codeAcamedy}} || Username: </p>
 					<p>CB Test=> {{alumn.coderByte}} || Username: </p>
 					<p>Beatles exam => {{alumn.beatles}} </p>
-					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments"></input>
-					<button class="btn-success">Update</button>
+					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments" ng-model="alumn.comments"></input>
+					<button class="btn-success" ng-click="update(alumn)">Update</button>
 				</div>
 				</ul>
 			</div>
@@ -48,6 +45,5 @@
 	</div>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/controllers.js"></script>
-	<script type="text/javascript" src="server.js"></script>
 </body>
 </html>
