@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="skylabApp">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Skylab Tracing</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://bootswatch.com/cosmo/bootstrap.min.css" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+	<div class="content">
+		<div class="wrapper col-lg-12">
+			<div class="leftSide col-lg-5 ">
+				<h1 class="display-3">Welcome to @SKYLABCODERS! </h1>
+				<h2> Hello, @user </h2>
+				<p class="lead"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis architecto praesentium sint ab quisquam corporis eveniet nostrum aliquid dicta, autem sequi incidunt quas iure vitae possimus quos eos nemo. Sit.</span></p>
+				<p class="lead">
+					<a class="btn btn-primary btn-lg" href="#" role="button" id="result">Learn more</a>
+			</div>
+			<div class=" col-lg-6 rightSide " ng-controller="alumniCtrl as alumni">
+				<div class="btn-group" ng-repeat="ss in studySessions">
+					<input type="button" value="{{ss.desc}}">
+				</div>
+				<div class="btn-group " data-toggle="buttons">
+					<input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcamedy: true}" value="CodeAcamedy">
+					<input type="button" class="btn btn-primary" ng-click="myFilter = {coderByte: true}" value="CoderByte">
+					<!-- <input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcademy: true} && {coderByte: true}" value="CB & CA"> -->
+				</div>
+				<div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
+					<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
+					<p>Programming experience => {{alumn.experienceProgramming}}</p>
+					<p>Last Work => {{alumn.lastWork}}</p>
+					<p>CA Test => {{alumn.codeAcamedy}} || Username: </p>
+					<p>CB Test=> {{alumn.coderByte}} || Username: </p>
+					<p>Beatles exam => {{alumn.beatles}} </p>
+					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments"></input>
+					<button class="btn-success">Update</button>
+				</div>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/controllers.js"></script>
+	<script type="text/javascript" src="server.js"></script>
+</body>
+</html>

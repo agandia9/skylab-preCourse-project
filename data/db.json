@@ -1,50 +1,48 @@
 {
-	"Todos": [
-		{
-			"id": 01,
-			"name": "Lorem",
-			"experienceProgramming": false,
-			"lastWork": "lorem",
-			"codeAcamedy": false,
-			"coderByte": true,
-			"comments": ["SESSION1 OK",  "MINI.PROJECT1 OK", " SESSION2 OK"],
-			"beatles": "ok"
-		}, {
-			"id": 02,
-			"name": "ipsum",
-			"experienceProgramming": true,
-			"lastWork": "lorem",
-			"codeAcamedy": true,
-			"coderByte": false,
-			"comments": ["SESSION1 OK"],
-			"beatles": "no pass"
-		}, {
-			"id": 03,
-			"name": "dolor",
-			"experienceProgramming": false,
-			"lastWork": "lorem",
-			"codeAcamedy": true,
-			"coderByte": false,
-			"comments": ["SESSION1 OK", " MINI.PROJECT1 OK"],
-			"beatles": "ok"
-		}, {
-			"id": 04,
-			"name": "sit amet",
-			"experienceProgramming": true,
-			"lastWork": "lorem",
-			"codeAcamedy": true,
-			"coderByte": true,
-			"comments": ["moreok"],
-			"beatles": "pending"
-		}, {
-			"id": 05,
-			"name": "Optimus",
-			"experienceProgramming": true,
-			"lastWork": "lorem",
-			"codeAcamedy": true,
-			"coderByte": false,
-			"comments": ["ok"],
-			"beatles": "ok"
-		}  
-	]
+	"students": [{
+		"id": 1,
+		"name": "Lorem",
+		"experienceProgramming": false,
+		"lastWork": "lorem",
+		"codeAcamedy": false,
+		"coderByte": true,
+		"comments": ["SESSION1 OK", "MINI.PROJECT1 OK", " SESSION2 OK"],
+		"beatles": "ok"
+	}, {
+		"id": 2,
+		"name": "ipsum",
+		"experienceProgramming": true,
+		"lastWork": "lorem",
+		"codeAcamedy": true,
+		"coderByte": false,
+		"comments": ["SESSION1 OK"],
+		"beatles": "no pass"
+	}, {
+		"id": 3,
+		"name": "dolor",
+		"experienceProgramming": false,
+		"lastWork": "lorem",
+		"codeAcamedy": true,
+		"coderByte": false,
+		"comments": ["SESSION1 OK", " MINI.PROJECT1 OK"],
+		"beatles": "ok"
+	}, {
+		"id": 4,
+		"name": "sit amet",
+		"experienceProgramming": true,
+		"lastWork": "lorem",
+		"codeAcamedy": true,
+		"coderByte": true,
+		"comments": ["moreok"],
+		"beatles": "pending"
+	}, {
+		"id": 5,
+		"name": "Optimus",
+		"experienceProgramming": true,
+		"lastWork": "lorem",
+		"codeAcamedy": true,
+		"coderByte": false,
+		"comments": ["ok"],
+		"beatles": "ok"
+	}]
 }
