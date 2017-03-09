@@ -6,7 +6,7 @@
 	<title>Skylab Tracing</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="http://bootswatch.com/cosmo/bootstrap.min.css" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://bootswatch.com/darkly/bootstrap.min.css" crossorigin="anonymous">
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
@@ -31,36 +31,30 @@
 				</div>
 				<div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
 					<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
-					<p>Programming experience => 
+					<p>Programming experience =>
 						<input type="text" ng-value="alumn.experienceProgramming" ng-model="alumn.experienceProgramming"></input>
 					</p>
-
-					<p>Last Work => 
+					<p>Last Work =>
 						<input type="text" ng-value="alumn.lastWork" ng-model="alumn.lastWork"></input>
 					</p>
-
-					<p>CA Test => 
-						<input type="text" ng-value="alumn.codeAcademy" ng-model="alumn.codeAcamedy"></input> 
+					<p>CA Test =>
+						<input type="text" ng-value="alumn.codeAcademy" ng-model="alumn.codeAcamedy"></input>
 					</p>
-
-					<p>CB Test => 
+					<p>CB Test =>
 						<input type="text" ng-value="alumn.coderByte" ng-model="alumn.coderByte"> </input>
 					</p>
-
-					<p>Beatles exam => 
+					<p>Beatles exam =>
 						<input type="text" ng-value="alumn.beatles" ng-model="alumn.beatles"> </input>
 					</p>
-
+					<p>Tracing</p>
 					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments" ng-model="alumn.comments"></input>
-
 					<button class="btn-success" ng-click="update(alumn)">Update</button>
-
 				</div>
-				</ul>
 			</div>
 		</div>
 	</div>
 	<script type="text/javascript" src="js/main.js"></script>
 	<script type="text/javascript" src="js/controllers.js"></script>
 </body>
+
 </html>

@@ -1,6 +1,3 @@
-body {
-	background-color: #eaeaea;
-}
 
 #container-full {
 	padding-top: 20px;
@@ -18,10 +15,19 @@ body {
 }
 
 .alumniClass {
-	background-color: #99d5ef;
+	background-color: #33597f;
 	padding-bottom: 15px;
+	width: 550px;
+	height: initial;
+	padding: 30px;
+	margin-top: 25px;
+	border-radius: 15px;
 }
-
+.alumniClass > button {
+	margin-top: 15px;
+	height: 50px;
+	width: 150px;
+} 
 //----------
 .content {
 	position: relative;
@@ -55,3 +61,4 @@ body {
 	float: left;
 	margin-left: 5px;
 }
+

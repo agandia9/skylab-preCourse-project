@@ -2,11 +2,11 @@
   "students": [
     {
       "name": "Lorem",
-      "experienceProgramming": false,
-      "lastWork": "FANTASTIC WORK",
-      "codeAcamedy": false,
-      "coderByte": true,
-      "comments": "SESSION1 OK,MINI.PROJECT1 OK",
+      "experienceProgramming": "true",
+      "lastWork": "workkkkk",
+      "codeAcamedy": "true",
+      "coderByte": "false",
+      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK TOO",
       "beatles": "ok",
       "id": 1
     },
