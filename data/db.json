@@ -6,7 +6,7 @@
       "lastWork": "workkkkk",
       "codeAcamedy": "true",
       "coderByte": "false",
-      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK TOO",
+      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK TOO, JODEEEEEER",
       "beatles": "ok",
       "id": 1
     },
@@ -36,7 +36,6 @@
       "beatles": "ok"
     },
     {
-      "id": 4,
       "name": "sit amet",
       "experienceProgramming": true,
       "lastWork": "lorem",
@@ -45,7 +44,8 @@
       "comments": [
         "moreok"
       ],
-      "beatles": "pending"
+      "beatles": "OK!",
+      "id": 4
     },
     {
       "id": 5,
@@ -64,7 +64,7 @@
       "experienceProgramming": false,
       "lastWork": "lorem",
       "codeAcamedy": false,
-      "coderByte": true,
+      "coderByte": "false",
       "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK",
       "beatles": "ok",
       "id": 6

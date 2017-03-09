@@ -27,28 +27,11 @@
 				<div class="btn-group " data-toggle="buttons">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcamedy: true}" value="CodeAcamedy">
 					<input type="button" class="btn btn-primary" ng-click="myFilter = {coderByte: true}" value="CoderByte">
-					<!-- <input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcademy: true} && {coderByte: true}" value="CB & CA"> -->
+					<input type="button" class="btn btn-primary" ng-click="myFilter = null" value="List All">
 				</div>
 				<div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
 					<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
-					<p>Programming experience =>
-						<input type="text" ng-value="alumn.experienceProgramming" ng-model="alumn.experienceProgramming"></input>
-					</p>
-					<p>Last Work =>
-						<input type="text" ng-value="alumn.lastWork" ng-model="alumn.lastWork"></input>
-					</p>
-					<p>CA Test =>
-						<input type="text" ng-value="alumn.codeAcademy" ng-model="alumn.codeAcamedy"></input>
-					</p>
-					<p>CB Test =>
-						<input type="text" ng-value="alumn.coderByte" ng-model="alumn.coderByte"> </input>
-					</p>
-					<p>Beatles exam =>
-						<input type="text" ng-value="alumn.beatles" ng-model="alumn.beatles"> </input>
-					</p>
-					<p>Tracing</p>
-					<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="alumn.comments" ng-model="alumn.comments"></input>
-					<button class="btn-success" ng-click="update(alumn)">Update</button>
+					<input type="button" class="btn btn-primary" ng-click="update(alumn.id)" value="Modify">
 				</div>
 			</div>
 		</div>
