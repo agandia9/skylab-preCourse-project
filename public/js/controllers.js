@@ -1,28 +1,43 @@
 var app = angular.module('skylabApp')
 
-app.controller('alumniCtrl', function($scope, $http, $window, $rootScope) {
+// app.service('shareId', function() {
+// 	var sharedId = '0';
+// 	return {
+// 		getProperty: function() {
+// 			return sharedId;
+// 		},
+// 		setProperty: function(value) {
+// 			sharedId = value;
+// 			console.log(sharedId)
+// 		}
+// 	};
+// });
 
+app.controller('alumniCtrl', function($scope, $http, $window, $rootScope) {
 	let url = '/api/students'
 	$http.get(url)
 		.then(({ data }) => {
 			$scope.alumni = data
 			console.log($scope.alumni)
 		})
+
 	$scope.update = function(alumn) {
-			$rootScope.id = alumn
-			$window.location.href = "/alumn.html";
-		}
-		// let num = alumn.id
-		// delete alumn.id
-		// $http.put(url + '/' + alumn)
-		// 	.then(({ data }) => {
-		// 		$window.location.href = "/alumn.html";
-		// 		$scope.info = data
-		// 	});
+		$rootScope.id = alumn
+		console.log($rootScope.id)
+		//$scope.setProperty($scope.id)
+		$window.location.href = "/alumn.html";
+	}
+	
+
+	// $scope.setProperty = function(id) {
+	// 	$scope.sharedId = id;
+	// 	shareId.setProperty($scope.sharedId);
+	// };
 })
 
 app.controller('alumniDetails', function($scope, $http, $rootScope) {
-	console.log($rootScope.$id)
+	//$scope.returnedId = shareId.getProperty()
+
 	let url = '/api/students'
 	console.log(url + '/' + $rootScope.$id)
 	$http.get(url + '/' + $rootScope.$id)
@@ -41,5 +56,4 @@ app.controller('alumniDetails', function($scope, $http, $rootScope) {
 			// 	console.log ( $scope.alumni )
 			// })
 	}
-
 })
