@@ -23,17 +23,14 @@
       "beatles": "no pass"
     },
     {
-      "id": 3,
       "name": "dolor",
       "experienceProgramming": false,
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": [
-        "SESSION1 OK",
-        " MINI.PROJECT1 OK"
-      ],
-      "beatles": "ok"
+      "comments": "SESSION1 OK, MINI.PROJECT1 OK, VAMOOOOS",
+      "beatles": "ok",
+      "id": 3
     },
     {
       "name": "sit amet",

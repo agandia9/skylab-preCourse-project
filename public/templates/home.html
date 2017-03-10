@@ -5,5 +5,5 @@
 </div>
 <div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
 	<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
-	<input type="button" class="btn btn-primary" ng-click="update(alumn.id)" value="Modify">
+	<a class="btn btn-primary" href="#alumn" ng-click="update(alumn.id)" value="Modify">
 </div>

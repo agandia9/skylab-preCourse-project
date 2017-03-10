@@ -24,8 +24,8 @@ angular.module('skylabCtrls',[])
 
 	let url = '/api/students'
 	console.log($rootScope)
-	console.log(url + '/' + $rootScope.$id)
-	$http.get(url + '/' + $rootScope.$id)
+	console.log(url + '/' + $rootScope.idToShare)
+	$http.get(url + '/' + $rootScope.idToShare)
 		.then(({ data }) => {
 			$scope.info = data
 			console.log(data)
