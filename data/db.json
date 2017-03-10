@@ -46,17 +46,15 @@
       "id": 4
     },
     {
-      "id": 5,
       "name": "Optimus",
-      "experienceProgramming": true,
-      "lastWork": "lorem",
+      "experienceProgramming": "No",
+      "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": [
-        "ok"
-      ],
+      "comments": "ok, and requeteOK",
       "promo": "3º PROMO",
-      "beatles": "ok"
+      "beatles": "ok",
+      "id": 5
     },
     {
       "name": "Lorem",

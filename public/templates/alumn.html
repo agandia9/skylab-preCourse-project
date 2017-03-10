@@ -1,5 +1,6 @@
 	<div class="alumniClass">
-		<h3>Name: {{info.name}} <small>Num ID => {{info.id}}</small></h3>
+		<a class="btn btn-primary" href="#/" value="Modify">Go Back</a>
+		<h3>Name: {{info.name}} <small>Num 🆔 => {{info.id}}</small></h3>
 		<h4>{{info.promo}}</h4>
 		<p>Programming experience =>
 			<input type="text" ng-value="info.experienceProgramming" ng-model="info.experienceProgramming"></input>
@@ -7,16 +8,16 @@
 		<p>Last Work =>
 			<input type="text" ng-value="info.lastWork" ng-model="info.lastWork"></input>
 		</p>
-		<p>CA Test =>
+		<p>CA ✅ =>
 			<input type="text" ng-value="info.codeAcademy" ng-model="info.codeAcamedy"></input>
 		</p>
-		<p>CB Test =>
+		<p>CB ✅ =>
 			<input type="text" ng-value="info.coderByte" ng-model="info.coderByte"> </input>
 		</p>
-		<p>Beatles exam =>
+		<p>Beatles ✅ =>
 			<input type="text" ng-value="info.beatles" ng-model="info.beatles"> </input>
 		</p>
-		<p>Tracing</p>
+		<p>Tracing </p>
 		<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="info.comments" ng-model="info.comments"></input>
 		<button class="btn-success" ng-click="updateAlumn(info)">Update</button>
 	</div>
