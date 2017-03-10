@@ -1,0 +1,21 @@
+	<div class="alumniClass">
+		<h3>Name: {{info.name}} <small>Num ID => {{info.id}}</small></h3>
+		<p>Programming experience =>
+			<input type="text" ng-value="info.experienceProgramming" ng-model="info.experienceProgramming"></input>
+		</p>
+		<p>Last Work =>
+			<input type="text" ng-value="info.lastWork" ng-model="info.lastWork"></input>
+		</p>
+		<p>CA Test =>
+			<input type="text" ng-value="info.codeAcademy" ng-model="info.codeAcamedy"></input>
+		</p>
+		<p>CB Test =>
+			<input type="text" ng-value="info.coderByte" ng-model="info.coderByte"> </input>
+		</p>
+		<p>Beatles exam =>
+			<input type="text" ng-value="info.beatles" ng-model="info.beatles"> </input>
+		</p>
+		<p>Tracing</p>
+		<input class="tracingInputs" name="" id="" cols="40" rows="5" ng-value="info.comments" ng-model="info.comments"></input>
+		<button class="btn-success" ng-click="updateAlumn(info)">Update</button>
+	</div>

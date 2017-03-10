@@ -10,6 +10,7 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.1/angular-route.min.js"></script>
 	<link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -21,18 +22,9 @@
 				<h2> Hello, @user </h2>
 				<p class="lead"><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis architecto praesentium sint ab quisquam corporis eveniet nostrum aliquid dicta, autem sequi incidunt quas iure vitae possimus quos eos nemo. Sit.</span></p>
 				<p class="lead">
-					<a class="btn btn-primary btn-lg" href="#" role="button" id="result">Learn more</a>
+					<a class="btn btn-primary btn-lg" href="/alumn" role="button" id="result">Learn more</a>
 			</div>
-			<div class=" col-lg-6 rightSide " ng-controller="alumniCtrl as alumni">
-				<div class="btn-group " data-toggle="buttons">
-					<input type="button" class="btn btn-primary" ng-click="myFilter = {codeAcamedy: true}" value="CodeAcamedy">
-					<input type="button" class="btn btn-primary" ng-click="myFilter = {coderByte: true}" value="CoderByte">
-					<input type="button" class="btn btn-primary" ng-click="myFilter = null" value="List All">
-				</div>
-				<div class="alumniClass" ng-repeat="alumn in alumni | filter:myFilter">
-					<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
-					<input type="button" class="btn btn-primary" ng-click="update(alumn.id)" value="Modify">
-				</div>
+			<div ng-view class="col-lg-6">
 			</div>
 		</div>
 	</div>
