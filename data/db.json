@@ -8,19 +8,19 @@
       "coderByte": "false",
       "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK TOO, JODEEEEEER",
       "beatles": "ok",
+      "promo": "4º PROMO",
       "id": 1
     },
     {
-      "id": 2,
       "name": "ipsum",
       "experienceProgramming": true,
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": [
-        "SESSION1 OK"
-      ],
-      "beatles": "no pass"
+      "comments": "SESSION1 OK, SESION 2 OK",
+      "beatles": "no pass",
+      "promo": "3º PROMO",
+      "id": 2
     },
     {
       "name": "dolor",
@@ -29,7 +29,7 @@
       "codeAcamedy": true,
       "coderByte": false,
       "comments": "SESSION1 OK, MINI.PROJECT1 OK, VAMOOOOS",
-      "beatles": "ok",
+      "promo": "5º PROMO",
       "id": 3
     },
     {
@@ -42,6 +42,7 @@
         "moreok"
       ],
       "beatles": "OK!",
+      "promo": "6º PROMO",
       "id": 4
     },
     {
@@ -54,6 +55,7 @@
       "comments": [
         "ok"
       ],
+      "promo": "3º PROMO",
       "beatles": "ok"
     },
     {
@@ -64,6 +66,7 @@
       "coderByte": "false",
       "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK",
       "beatles": "ok",
+      "promo": "2º PROMO",
       "id": 6
     }
   ]
