@@ -34,6 +34,7 @@ angular.module('skylabCtrls',[])
 	$scope.updateAlumn = function(info) {
 		let num = info.id
 		delete info.id
+		info.comments = info.comments.split(",")
 		console.log(info)
 		$http.put(url + '/' + num, info, num)
 			// .then( ({ data }) => {

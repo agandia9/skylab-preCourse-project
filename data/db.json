@@ -6,9 +6,13 @@
       "lastWork": "workkkkk",
       "codeAcamedy": "true",
       "coderByte": "false",
-      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK TOO, JODEEEEEER",
+      "comments": [
+        "session 1 ok",
+        " session 2 ok",
+        " session 3 bad"
+      ],
       "beatles": "ok",
-      "promo": "4º PROMO",
+      "promo": 1,
       "id": 1
     },
     {
@@ -17,9 +21,15 @@
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": "SESSION1 OK, SESION 2 OK",
+      "comments": [
+        "SESSION1 OK",
+        " SESION 2 OK",
+        " SESSION3",
+        " SESSION 4",
+        " vamos"
+      ],
       "beatles": "no pass",
-      "promo": "3º PROMO",
+      "promo": 2,
       "id": 2
     },
     {
@@ -28,8 +38,12 @@
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": "SESSION1 OK, MINI.PROJECT1 OK, VAMOOOOS",
-      "promo": "5º PROMO",
+      "comments": [
+        "SESSION1 OK",
+        " MINI.PROJECT1 OK",
+        " SESSION 2 OK"
+      ],
+      "promo": 2,
       "id": 3
     },
     {
@@ -39,10 +53,11 @@
       "codeAcamedy": true,
       "coderByte": true,
       "comments": [
-        "moreok"
+        "moreok",
+        " something ok too"
       ],
       "beatles": "OK!",
-      "promo": "6º PROMO",
+      "promo": 1,
       "id": 4
     },
     {
@@ -51,8 +66,11 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
-      "comments": "ok, and requeteOK",
-      "promo": "3º PROMO",
+      "comments": [
+        "ok",
+        " requeteOK"
+      ],
+      "promo": 2,
       "beatles": "ok",
       "id": 5
     },
@@ -62,9 +80,14 @@
       "lastWork": "lorem",
       "codeAcamedy": false,
       "coderByte": "false",
-      "comments": "SESSION1 OK,MINI.PROJECT1 OK, SESSION2 OK",
+      "comments": [
+        "SESSION1 OK",
+        "MINI.PROJECT1 OK",
+        " SESSION2 OK",
+        " 😄"
+      ],
       "beatles": "ok",
-      "promo": "2º PROMO",
+      "promo": 1,
       "id": 6
     }
   ]
