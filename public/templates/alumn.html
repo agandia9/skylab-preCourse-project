@@ -1,5 +1,5 @@
-	<div class="alumniClass">
-		<a class="btn btn-primary" href="#/" value="Modify">Go Back</a>
+	<div class="alumniDetailsClass">
+		<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
 		<h3>Name: {{info.name}} <small>Num 🆔 => {{info.id}}</small></h3>
 		<h4>Promo: {{info.promo}}</h4>
 		<p>Programming experience =>
@@ -19,8 +19,8 @@
 		</p>
 		<p>Tracing </p>
 		<input class="tracingInputs" name="" id="" ng-model="info.comments"></input>
-		<ul ng-repeat="comments in info.comments">
-			<li>{{comments}}</li>
+		<ul ng-repeat="(key, comments) in info.comments">
+			<li>{{key+1}}º -> {{comments}}</li>
 		</ul>
 		<button class="btn-success" ng-click="updateAlumn(info)">Update</button>
 	</div>

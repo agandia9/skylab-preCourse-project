@@ -1,6 +1,7 @@
-*{
-	font-family:'Catamaran', sans-serif !important;
+* {
+	font-family: 'Catamaran', sans-serif !important;
 }
+
 #container-full {
 	padding-top: 20px;
 }
@@ -17,6 +18,26 @@
 }
 
 .alumniClass {
+	margin-top: 65px;
+}
+
+.alumniClass > button {
+	margin-top: 15px;
+	height: 50px;
+	width: 150px;
+}
+
+.alumniClassDetails {
+	background-color: #33597f;
+	padding-bottom: 5px;
+	width: 550px;
+	height: initial;
+	padding: 20px;
+	margin-top: 8px;
+	border-radius: 15px;
+}
+
+.alumniDetailsClass {
 	background-color: #33597f;
 	padding-bottom: 15px;
 	width: 550px;
@@ -25,11 +46,29 @@
 	margin-top: 25px;
 	border-radius: 15px;
 }
-.alumniClass > button {
-	margin-top: 15px;
-	height: 50px;
+
+.alumniDetailsClass > ul {
+	margin-top: 10px;
+	list-style-type: none;
+	padding: 0px;
+}
+
+.alumniDetailsClass > button {
+	height: 70px;
 	width: 150px;
-} 
+}
+
+.goBack {
+	display: flex;
+	/* position: fixed; */
+	float: right;
+}
+
+.groupPromos {
+	position: fixed;
+	margin-bottom: 10px;
+}
+
 //----------
 .content {
 	position: relative;
@@ -63,4 +102,3 @@
 	float: left;
 	margin-left: 5px;
 }
-

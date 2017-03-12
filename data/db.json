@@ -41,7 +41,7 @@
       "comments": [
         "SESSION1 OK",
         " MINI.PROJECT1 OK",
-        " SESSION 2 OK"
+        " SESSION 2 OK 🙃"
       ],
       "promo": 2,
       "id": 3
@@ -54,7 +54,9 @@
       "coderByte": true,
       "comments": [
         "moreok",
-        " something ok too"
+        " something ok too",
+        " :)",
+        " SIUUUUUUUUU!"
       ],
       "beatles": "OK!",
       "promo": 1,
@@ -75,7 +77,66 @@
       "id": 5
     },
     {
-      "name": "Lorem",
+      "name": "Prime",
+      "experienceProgramming": "No",
+      "lastWork": "lorem ipsum",
+      "codeAcamedy": true,
+      "coderByte": false,
+      "comments": [
+        "ok",
+        " requeteOK"
+      ],
+      "promo": 3,
+      "beatles": "ok",
+      "id": 6
+    },
+    {
+      "name": "IronMan",
+      "experienceProgramming": "No",
+      "lastWork": "lorem ipsum",
+      "codeAcamedy": true,
+      "coderByte": false,
+      "comments": [
+        "ok",
+        " requeteOK",
+        " Tony stark rules 👊🏼"
+      ],
+      "promo": 3,
+      "beatles": "ok",
+      "id": 7
+    },
+    {
+      "name": "Hulk",
+      "experienceProgramming": "No",
+      "lastWork": "lorem ipsum",
+      "codeAcamedy": true,
+      "coderByte": false,
+      "comments": [
+        "ok",
+        " requeteOK",
+        " 👊🏼"
+      ],
+      "promo": 4,
+      "beatles": "ok",
+      "id": 8
+    },
+    {
+      "name": "Thor",
+      "experienceProgramming": "No",
+      "lastWork": "lorem ipsum",
+      "codeAcamedy": true,
+      "coderByte": false,
+      "comments": [
+        "ok",
+        " requeteOK",
+        " thor mola no?"
+      ],
+      "promo": 4,
+      "beatles": "ok",
+      "id": 9
+    },
+    {
+      "name": "Loki",
       "experienceProgramming": false,
       "lastWork": "lorem",
       "codeAcamedy": false,
@@ -84,11 +145,12 @@
         "SESSION1 OK",
         "MINI.PROJECT1 OK",
         " SESSION2 OK",
-        " 😄"
+        " 😄",
+        " 🐐"
       ],
       "beatles": "ok",
-      "promo": 1,
-      "id": 6
+      "promo": 4,
+      "id": 10
     }
   ]
 }
