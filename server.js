@@ -20,16 +20,8 @@ server.use("/api/students", function(req, res, next) {
 		res.send(JSON.stringify(router));
 	}
 	next()
-})
 
-// server.use("/api/students/:id", function(req, res, next) {
-// 	if (req.method === 'GET') {
-// 		console.log('HELLO IM GETTING')
-// 		res.setHeader('Content-Type', 'application/json');
-// 		res.send(JSON.stringify(router));
-// 	}
-// 	next()
-// })
+})
 
 // Use default router
 server.use('/api/', router)

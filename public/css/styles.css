@@ -60,7 +60,6 @@
 
 .goBack {
 	display: flex;
-	/* position: fixed; */
 	float: right;
 }
 
@@ -69,6 +68,15 @@
 	margin-bottom: 10px;
 }
 
+.createAlumni{
+	background-color: #33597f;
+	padding-bottom: 15px;
+	width: 550px;
+	height: initial;
+	padding: 30px;
+	margin-top: 25px;
+	border-radius: 15px;
+}
 //----------
 .content {
 	position: relative;

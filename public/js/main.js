@@ -7,10 +7,15 @@ angular.module('skylabApp').config(function($routeProvider) {
 			templateUrl : 'templates/home.html',
 			controller  : 'alumniCtrl'
 		})
-		// route for the info page
+		// route for the details page
 		.when('/alumn', {
 			templateUrl : 'templates/alumn.html',
 			controller  : 'alumniDetails'
+		})
+		// route for the info page
+		.when('/create', {
+			templateUrl : 'templates/newUser.html',
+			controller  : 'createAlumn'
 		})
 		.otherwise({redirectTo: '/'}); ;
 });

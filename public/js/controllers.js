@@ -1,4 +1,4 @@
-angular.module('skylabCtrls',[])
+angular.module('skylabCtrls', [])
 
 .controller('alumniCtrl', function($scope, $http, $window, $rootScope) {
 	let url = '/api/students'
@@ -7,21 +7,12 @@ angular.module('skylabCtrls',[])
 		.then(({ data }) => {
 			$scope.alumni = data
 		})
-
 	$scope.update = function(alumn) {
 		$rootScope.idToShare = alumn
-		//$scope.setProperty($scope.id);
 	}
-
-	// $scope.setProperty = function(id) {
-	// 	$scope.sharedId = id;
-	// 	shareId.setProperty($scope.sharedId);
-	// };
 })
 
 .controller('alumniDetails', function($scope, $http, $rootScope) {
-	//$scope.returnedId = shareId.getProperty()
-
 	let url = '/api/students'
 	console.log($rootScope)
 	console.log(url + '/' + $rootScope.idToShare)
@@ -34,12 +25,30 @@ angular.module('skylabCtrls',[])
 	$scope.updateAlumn = function(info) {
 		let num = info.id
 		delete info.id
-		info.comments = info.comments.split(",")
+		if (info.comments === true) {
+			info.comments = info.comments.split(",")
+		} else console.log("no new comments added")
 		console.log(info)
-		$http.put(url + '/' + num, info, num)
-			// .then( ({ data }) => {
-			// 	$scope.alumni = data 
-			// 	console.log ( $scope.alumni )
-			// })
+		$http.put(url + '/' + num, info)
 	}
+})
+
+.controller('createAlumn', function($scope, $http) {
+	$scope.title = "Create new student"
+	let url = '/api/students'
+	$scope.createAlumn = function(name, promo, experienceProgramming, lastWork, codeAcademy, coderByte, beatles, comments) {
+		var newAlumn = {
+			name: $scope.name,
+			promo: parseInt($scope.promo),
+			experienceProgramming: $scope.experienceProgramming,
+			lastWork: $scope.lastWork,
+			codeAcademy: $scope.codeAcademy,
+			coderByte: $scope.coderByte,
+			beatles: $scope.beatles,
+			comments: $scope.comments.split(",")
+		}
+		console.log(newAlumn)
+		$http.post(url, newAlumn)
+	}
+
 })

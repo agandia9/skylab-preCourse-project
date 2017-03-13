@@ -3,11 +3,11 @@
 	<input type="button" class="btn btn-primary" ng-click="myFilter = {promo: 2}" value="Second Promo">
 	<input type="button" class="btn btn-primary" ng-click="myFilter = {promo: 3}" value="Third Promo">
 	<input type="button" class="btn btn-primary" ng-click="myFilter = {promo: 4}" value="Fourth Promo">
-	<input type="button" class="btn btn-primary" ng-click="myFilter = {promo: 4}" value="Fifth Promo">
+	<input type="button" class="btn btn-primary" ng-click="myFilter = {promo: 5}" value="Fifth Promo">
 </div>
 <div class="alumniClass">
 <h2>Students</h2>
-<div class="alumniClassDetails"ng-repeat="alumn in alumni | filter:myFilter">
+<div class="alumniClassDetails" ng-repeat="alumn in alumni | filter:myFilter">
 	<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
 	<a class="btn btn-primary" href="#alumn" ng-click="update(alumn.id)" value="Modify">Modify</a>
 </div>

@@ -1,0 +1,28 @@
+<div class="createAlumni">
+	<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
+		<h2>{{title}}</h2>
+		<p>Name =>
+			<input type="text" ng-model="name"></input>
+		</p>
+		<p>Promo =>
+			<input type="text"  ng-model="promo"></input>
+		</p>
+		<p>Programming experience =>
+			<input type="text" ng-model="experienceProgramming"></input>
+		</p>
+		<p>Last Work =>
+			<input type="text" ng-model="lastWork"></input>
+		</p>
+		<p>CodeAcademy ✅ =>
+			<input type="text" ng-model="codeAcademy"></input>
+		</p>
+		<p>CoderByte ✅ =>
+			<input type="text" ng-model="coderByte"> </input>
+		</p>
+		<p>Beatles ✅ =>
+			<input type="text" ng-model="beatles"> </input>
+		</p>
+		<p>Tracing </p>
+		<input class="tracingInputs" name="" id="" ng-model="comments"></input>
+		<button class="btn-success" ng-click="createAlumn(name, promo, experienceProgramming,lastWork, codeAcademy, coderByte, beatles,comments )">Create Alumn</button>
+</div>

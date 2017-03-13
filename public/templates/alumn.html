@@ -1,17 +1,22 @@
 	<div class="alumniDetailsClass">
 		<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
-		<h3>Name: {{info.name}} <small>Num 🆔 => {{info.id}}</small></h3>
-		<h4>Promo: {{info.promo}}</h4>
+		<small>Num 🆔 => {{info.id}}</small>
+		<div>
+		<h3>Name => {{info.name}}</h3><input type="text" ng-model="info.name" ng-value="info.name"></input>
+		</div>
+		<div>
+		<h4>Promo => {{info.promo}}</h4><input type="text" ng-model="info.promo" ng-value="info.promo"></input>
+		</div>
 		<p>Programming experience =>
 			<input type="text" ng-value="info.experienceProgramming" ng-model="info.experienceProgramming"></input>
 		</p>
 		<p>Last Work =>
 			<input type="text" ng-value="info.lastWork" ng-model="info.lastWork"></input>
 		</p>
-		<p>CA ✅ =>
+		<p>CodeAcademy ✅ =>
 			<input type="text" ng-value="info.codeAcademy" ng-model="info.codeAcamedy"></input>
 		</p>
-		<p>CB ✅ =>
+		<p>CoderByte ✅ =>
 			<input type="text" ng-value="info.coderByte" ng-model="info.coderByte"> </input>
 		</p>
 		<p>Beatles ✅ =>
