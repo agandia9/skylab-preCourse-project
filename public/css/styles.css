@@ -58,6 +58,7 @@
 	width: 150px;
 }
 
+
 .goBack {
 	display: flex;
 	float: right;
@@ -68,7 +69,7 @@
 	margin-bottom: 10px;
 }
 
-.createAlumni{
+.createAlumni {
 	background-color: #33597f;
 	padding-bottom: 15px;
 	width: 550px;
@@ -77,6 +78,7 @@
 	margin-top: 25px;
 	border-radius: 15px;
 }
+
 //----------
 .content {
 	position: relative;
@@ -109,4 +111,19 @@
 .leftSide {
 	float: left;
 	margin-left: 5px;
+}
+
+.alumniDetailsClass > input[type=text], p>input[type=text] {
+	text-align: center;
+    height: 25px;
+    width: auto;
+    color: #fff;
+    background-color: #f4f2f2;
+    padding: 0px;
+    margin-bottom: 3px;
+    border-style: solid;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 2px solid black;
 }

@@ -1,11 +1,13 @@
 {
   "students": [
     {
-      "name": "Loremcillo",
+      "name": "Lorem",
       "experienceProgramming": "YES",
       "lastWork": "workkkkk",
       "codeAcamedy": "true",
       "coderByte": "false",
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "session 1 ok",
         " session 2 ok",
@@ -23,6 +25,8 @@
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "SESSION1 OK",
         " SESION 2 OK",
@@ -40,6 +44,8 @@
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456780",
       "comments": [
         "SESSION1 OK",
         " MINI.PROJECT1 OK",
@@ -55,6 +61,8 @@
       "lastWork": "lorem",
       "codeAcamedy": true,
       "coderByte": true,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "moreok",
         " something ok too",
@@ -62,7 +70,7 @@
         " SIUUUUUUUUU!"
       ],
       "beatles": "OK!",
-      "promo": 1,
+      "promo": "3",
       "id": 4
     },
     {
@@ -71,6 +79,8 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "ok",
         " requeteOK"
@@ -85,6 +95,8 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "ok",
         " requeteOK"
@@ -99,6 +111,8 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "ok",
         " requeteOK",
@@ -114,6 +128,8 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "ok",
         " requeteOK",
@@ -129,6 +145,8 @@
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
       "coderByte": false,
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "ok",
         " requeteOK",
@@ -144,6 +162,8 @@
       "lastWork": "lorem",
       "codeAcamedy": false,
       "coderByte": "false",
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "SESSION1 OK",
         "MINI.PROJECT1 OK",
@@ -157,12 +177,14 @@
     },
     {
       "name": "hkvuoyv",
-      "promo": 5,
+      "promo": "2",
       "experienceProgramming": "vcgy",
       "lastWork": "oy",
       "codeAcademy": "gc",
       "coderByte": "gyccyi",
       "beatles": "nop",
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "something",
         " gogo",
@@ -178,6 +200,8 @@
       "codeAcademy": "jbbjjbjb",
       "coderByte": "jkbjkbjkbjbk",
       "beatles": "jbkjbkjbk",
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "aasdfg",
         "asdfghj",
@@ -193,11 +217,46 @@
       "codeAcademy": "vhj",
       "coderByte": "jvhvhjc",
       "beatles": "vhjhjv",
+      "github": "",
+      "telf": "123456789",
       "comments": [
         "HELLO",
         " FUCKING"
       ],
       "id": 15
+    },
+    {
+      "name": "Alejandro",
+      "promo": 1,
+      "experienceProgramming": "yes",
+      "lastWork": "web designer",
+      "codeAcademy": "yes",
+      "coderByte": "yes",
+      "beatles": "yes",
+      "github": "",
+      "telf": "123456789",
+      "comments": [
+        "the fucking boss",
+        " it's incredible",
+        " amazing",
+        " good boy",
+        " 👊🏼"
+      ],
+      "id": 16
+    },
+    {
+      "name": "David",
+      "promo": 4,
+      "experienceProgramming": "no",
+      "lastWork": "¿?",
+      "codeAcademy": "yes",
+      "coderByte": "yes",
+      "beatles": "yes",
+      "comments": [
+        "HÁ",
+        " 👻"
+      ],
+      "id": 17
     }
   ]
 }
