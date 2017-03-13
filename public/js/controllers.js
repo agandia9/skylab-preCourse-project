@@ -25,9 +25,11 @@ angular.module('skylabCtrls', [])
 	$scope.updateAlumn = function(info) {
 		let num = info.id
 		delete info.id
-		if (info.comments === true) {
-			info.comments = info.comments.split(",")
-		} else console.log("no new comments added")
+		info.comments.push({
+				comment: info.comment,
+				day: Date.now()
+			})
+		delete info.comment
 		console.log(info)
 		$http.put(url + '/' + num, info)
 	}
@@ -36,16 +38,20 @@ angular.module('skylabCtrls', [])
 .controller('createAlumn', function($scope, $http) {
 	$scope.title = "Create new student"
 	let url = '/api/students'
-	$scope.createAlumn = function(name, promo, experienceProgramming, lastWork, codeAcademy, coderByte, beatles, comments) {
+	$scope.createAlumn = function(name, promo, telf, experienceProgramming, lastWork, codeAcademy, coderByte, beatles, comment) {
 		var newAlumn = {
 			name: $scope.name,
 			promo: parseInt($scope.promo),
+			telf: $scope.telf,
 			experienceProgramming: $scope.experienceProgramming,
 			lastWork: $scope.lastWork,
 			codeAcademy: $scope.codeAcademy,
 			coderByte: $scope.coderByte,
 			beatles: $scope.beatles,
-			comments: $scope.comments.split(",")
+			comments: [{
+				comment: $scope.comment,
+				day: Date.now()
+			}]
 		}
 		console.log(newAlumn)
 		$http.post(url, newAlumn)

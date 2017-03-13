@@ -28,9 +28,9 @@
 		<input type="text" ng-value="info.beatles" ng-model="info.beatles"> </input>
 	</p>
 	<p>Tracing </p>
-	<input class="tracingInputs" name="" id="" ng-model="info.comments"></input>
-	<ul ng-repeat="(key, comments) in info.comments">
-		<li>{{key+1}}º -> {{comments}}</li>
+	<input class="tracingInputs" name="" id="" ng-model="info.comment" ng-value="info.comment"></input>
+	<ul ng-repeat="key in info.comments">
+		<li> -> {{key.comment}} - {{key.day}}</li>
 	</ul>
 	<button class="btn-success" ng-click="updateAlumn(info)">Update</button>
 </div>

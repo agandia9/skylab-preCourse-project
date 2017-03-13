@@ -9,11 +9,34 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "session 1 ok",
-        " session 2 ok",
-        " session 3 bad",
-        " session4 ok",
-        " joder"
+        {
+          "comment": "session1 ok",
+          "day": 1489414142010
+        },
+        {
+          "comment": "session2 ok",
+          "day": 1489414142015
+        },
+        {
+          "comment": "session 3 ok",
+          "day": 1489415654050
+        },
+        {
+          "comment": "session 6 ok",
+          "day": 1489415672347
+        },
+        {
+          "comment": "session 7 ok",
+          "day": 1489416056369
+        },
+        {
+          "comment": "session 8 ok",
+          "day": 1489416508325
+        },
+        {
+          "comment": "session 9 ok",
+          "day": 1489416611616
+        }
       ],
       "beatles": "ok",
       "promo": "1",
@@ -28,14 +51,25 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "SESSION1 OK",
-        " SESION 2 OK",
-        " SESSION3",
-        " SESSION 4",
-        " vamos"
+        {
+          "comment": "session1 ok",
+          "day": 1489414142010
+        },
+        {
+          "comment": "session2 ok",
+          "day": 1489414142015
+        },
+        {
+          "comment": "session 3 ok",
+          "day": 1489415762409
+        },
+        {
+          "comment": "session 5  ok",
+          "day": 1489416685480
+        }
       ],
       "beatles": "yes pass",
-      "promo": "1",
+      "promo": "2",
       "id": 2
     },
     {
@@ -47,9 +81,14 @@
       "github": "",
       "telf": "123456780",
       "comments": [
-        "SESSION1 OK",
-        " MINI.PROJECT1 OK",
-        " SESSION 2 OK 🙃"
+        {
+          "comment": "session1 ok",
+          "day": 1489414142010
+        },
+        {
+          "comment": "session2 ok",
+          "day": 1489414142015
+        }
       ],
       "beatles": "maybe pass",
       "promo": "2",
@@ -64,10 +103,18 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "moreok",
-        " something ok too",
-        " :)",
-        " SIUUUUUUUUU!"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "beatles": "OK!",
       "promo": "3",
@@ -82,8 +129,18 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "ok",
-        " requeteOK"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "promo": 2,
       "beatles": "ok",
@@ -98,8 +155,18 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "ok",
-        " requeteOK"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "promo": 3,
       "beatles": "ok",
@@ -114,9 +181,18 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "ok",
-        " requeteOK",
-        " Tony stark rules 👊🏼"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "promo": 3,
       "beatles": "ok",
@@ -131,9 +207,18 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "ok",
-        " requeteOK",
-        " 👊🏼"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "promo": 4,
       "beatles": "ok",
@@ -148,115 +233,76 @@
       "github": "",
       "telf": "123456789",
       "comments": [
-        "ok",
-        " requeteOK",
-        " thor mola no?"
+        {
+          "comment": "session 1 ok",
+          "day": "13/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "17/09"
+        },
+        {
+          "comment": "session 1 ok",
+          "day": "22/09"
+        }
       ],
       "promo": 4,
       "beatles": "ok",
       "id": 9
     },
     {
-      "name": "Loki",
-      "experienceProgramming": false,
-      "lastWork": "lorem",
-      "codeAcamedy": false,
-      "coderByte": "false",
-      "github": "",
-      "telf": "123456789",
+      "name": "Falcon",
+      "promo": "5",
+      "telf": "65432198",
+      "experienceProgramming": "yes",
+      "lastWork": "¿?",
+      "codeAcademy": "yes",
+      "coderByte": "n",
+      "beatles": "yes",
       "comments": [
-        "SESSION1 OK",
-        "MINI.PROJECT1 OK",
-        " SESSION2 OK",
-        " 😄",
-        " 🐐"
+        {
+          "comment": "session 1 ok",
+          "day": 1489416162083
+        },
+        {
+          "comment": "session 2 ok",
+          "day": 1489416175374
+        },
+        {
+          "comment": "session 6 ok",
+          "day": 1489416194468
+        },
+        {
+          "comment": "session 7 ok too",
+          "day": 1489416261055
+        },
+        {
+          "comment": "session 8 too",
+          "day": 1489416415220
+        }
       ],
-      "beatles": "ok",
-      "promo": 4,
       "id": 10
     },
     {
-      "name": "hkvuoyv",
-      "promo": "2",
-      "experienceProgramming": "vcgy",
-      "lastWork": "oy",
-      "codeAcademy": "gc",
-      "coderByte": "gyccyi",
-      "beatles": "nop",
-      "github": "",
-      "telf": "123456789",
-      "comments": [
-        "something",
-        " gogo",
-        " SIUUUUU"
-      ],
-      "id": 13
-    },
-    {
-      "name": "hivvyugyu",
-      "promo": 5,
-      "experienceProgramming": "hvhvhjvh",
-      "lastWork": "jnjnojnb",
-      "codeAcademy": "jbbjjbjb",
-      "coderByte": "jkbjkbjkbjbk",
-      "beatles": "jbkjbkjbk",
-      "github": "",
-      "telf": "123456789",
-      "comments": [
-        "aasdfg",
-        "asdfghj",
-        "sdfghjdfgh"
-      ],
-      "id": 14
-    },
-    {
-      "name": "hjvjkyvkh",
-      "promo": 5,
-      "experienceProgramming": "vVKJGHVGJHjhv",
-      "lastWork": "khvhjvj",
-      "codeAcademy": "vhj",
-      "coderByte": "jvhvhjc",
-      "beatles": "vhjhjv",
-      "github": "",
-      "telf": "123456789",
-      "comments": [
-        "HELLO",
-        " FUCKING"
-      ],
-      "id": 15
-    },
-    {
-      "name": "Alejandro",
-      "promo": 1,
-      "experienceProgramming": "yes",
-      "lastWork": "web designer",
-      "codeAcademy": "yes",
-      "coderByte": "yes",
-      "beatles": "yes",
-      "github": "",
-      "telf": "123456789",
-      "comments": [
-        "the fucking boss",
-        " it's incredible",
-        " amazing",
-        " good boy",
-        " 👊🏼"
-      ],
-      "id": 16
-    },
-    {
-      "name": "David",
-      "promo": 4,
+      "name": "Doctor muerte",
+      "promo": 3,
+      "telf": "654123789",
       "experienceProgramming": "no",
-      "lastWork": "¿?",
-      "codeAcademy": "yes",
-      "coderByte": "yes",
-      "beatles": "yes",
+      "lastWork": "yes",
+      "codeAcademy": "maybe",
+      "coderByte": "no",
+      "beatles": "sure not",
       "comments": [
-        "HÁ",
-        " 👻"
+        {
+          "comment": "dude...ok",
+          "day": 1489416742888
+        },
+        {
+          "comment": "session 4 ok",
+          "day": 1489416752836
+        }
       ],
-      "id": 17
+      "id": 11
     }
   ]
 }
