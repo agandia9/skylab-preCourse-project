@@ -127,3 +127,19 @@
     background: transparent;
     border-bottom: 2px solid black;
 }
+
+.modalClass{
+	height: 250px;
+    width: 400px;
+    background-color: #1767b7;
+    border-radius: 20px;
+    float: none;
+    position: absolute;
+    right: 30%;
+    top: 30%;
+}
+
+.modalClass > .modal-body > a{
+	top:50%;
+	right: 50px;
+}

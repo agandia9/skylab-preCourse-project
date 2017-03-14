@@ -6,6 +6,7 @@ var app = express()
 var middlewares = jsonServer.defaults()
 
 app.use(express.static('public'))
+// app.use('/bower_components',  express.static('bower_components'));
 
 // Set default middlewares (logger, static, cors and no-cache)
 server.use(middlewares)
@@ -13,8 +14,6 @@ server.use(middlewares)
 // To handle POST, PUT and PATCH you need to use a body-parser
 // You can use the one used by JSON Server
 server.use(jsonServer.bodyParser)
-
-
 
 server.use("/api/students", function(req, res, next) {
 	if (req.method === 'PUT') {

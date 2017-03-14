@@ -25,13 +25,20 @@ angular.module('skylabCtrls', [])
 	$scope.updateAlumn = function(info) {
 		let num = info.id
 		delete info.id
-		info.comments.push({
+		if (info.comment) {
+			info.comments.push({
 				comment: info.comment,
 				day: Date.now()
 			})
-		delete info.comment
+		} else {
+			console.log('not new comments')
+		}
 		console.log(info)
-		$http.put(url + '/' + num, info)
+		$http.put(url + '/' + num, info).then(
+			function() {
+				console.log('HEY')
+				$('#myModal').modal('show');
+			})
 	}
 })
 
@@ -54,7 +61,11 @@ angular.module('skylabCtrls', [])
 			}]
 		}
 		console.log(newAlumn)
-		$http.post(url, newAlumn)
+		$http.post(url, newAlumn).then(
+			function() {
+				console.log('HEY')
+				$('#myModal').modal('show');
+			})
 	}
 
 })

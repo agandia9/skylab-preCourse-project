@@ -1,10 +1,10 @@
 {
   "students": [
     {
-      "name": "Lorem",
+      "name": "Sheldon Cooper",
       "experienceProgramming": "YES",
-      "lastWork": "workkkkk",
-      "codeAcamedy": "false",
+      "lastWork": "working hard",
+      "codeAcamedy": "TRUE",
       "coderByte": "false",
       "github": "",
       "telf": "123456789",
@@ -26,17 +26,25 @@
           "day": 1489417653086
         },
         {
-          "day": 1489417674417
+          "comment": "changes :)",
+          "day": 1489480589940
+        },
+        {
+          "comment": "change again",
+          "day": 1489480739364
+        },
+        {
+          "day": 1489485241927
         }
       ],
-      "beatles": "ok",
+      "beatles": "FALSE",
       "promo": "1",
       "id": 1
     },
     {
-      "name": "ipsumcillo",
+      "name": "Bilbo Bolsón",
       "experienceProgramming": true,
-      "lastWork": "lorem",
+      "lastWork": "LOREM!!!!",
       "codeAcamedy": true,
       "coderByte": false,
       "github": "",
@@ -51,42 +59,25 @@
           "day": 1489414142015
         },
         {
-          "comment": "session 3 ok",
-          "day": 1489415762409
-        },
-        {
-          "comment": "session 5  ok",
-          "day": 1489416685480
-        },
-        {
-          "comment": "session 6 ok",
-          "day": 1489417100077
-        },
-        {
-          "comment": "change promo",
-          "day": 1489417130723
-        },
-        {
-          "day": 1489417143830
-        },
-        {
-          "day": 1489417521645
+          "comment": "session 3 👍🏼",
+          "day": 1489480636589
         },
         {
           "comment": "session 4 ok",
-          "day": 1489417538180
+          "day": 1489480764440
         }
       ],
-      "beatles": "yes pass",
-      "promo": "3",
+      "beatles": "yes.. PASS NOOB",
+      "promo": "2",
+      "comment": "",
       "id": 2
     },
     {
       "name": "dolorcillo",
-      "experienceProgramming": false,
+      "experienceProgramming": "true",
       "lastWork": "lorem",
       "codeAcamedy": true,
-      "coderByte": false,
+      "coderByte": "true",
       "github": "",
       "telf": "123456780",
       "comments": [
@@ -97,10 +88,13 @@
         {
           "comment": "session2 ok",
           "day": 1489414142015
+        },
+        {
+          "day": 1489418500671
         }
       ],
       "beatles": "maybe pass",
-      "promo": "2",
+      "promo": "3",
       "id": 3
     },
     {
@@ -159,11 +153,11 @@
         }
       ],
       "promo": "3",
-      "beatles": "ok",
+      "beatles": "NOP.",
       "id": 5
     },
     {
-      "name": "Prime",
+      "name": "Darth Vader",
       "experienceProgramming": "No",
       "lastWork": "lorem ipsum",
       "codeAcamedy": true,
@@ -180,15 +174,11 @@
           "day": "17/09"
         },
         {
-          "comment": "session 1 ok",
-          "day": "22/09"
-        },
-        {
-          "comment": "change promo",
-          "day": 1489417158353
+          "comment": "session 2 ok",
+          "day": 1489480686796
         }
       ],
-      "promo": "2",
+      "promo": "1",
       "beatles": "ok",
       "id": 6
     },
@@ -217,7 +207,7 @@
           "day": 1489417686124
         }
       ],
-      "promo": "1",
+      "promo": "3",
       "beatles": "ok",
       "id": 7
     },
@@ -308,7 +298,7 @@
     },
     {
       "name": "Doctor muerte",
-      "promo": 3,
+      "promo": "2",
       "telf": "654123789",
       "experienceProgramming": "no",
       "lastWork": "yes",
@@ -323,9 +313,54 @@
         {
           "comment": "session 4 ok",
           "day": 1489416752836
+        },
+        {
+          "comment": "SESSION 5 OK",
+          "day": 1489418523309
+        },
+        {
+          "comment": "SESSION 6 OK",
+          "day": 1489429388885
+        },
+        {
+          "day": 1489485138504
         }
       ],
       "id": 11
+    },
+    {
+      "name": "juanma",
+      "promo": 1,
+      "telf": "1234567890",
+      "experienceProgramming": "ofcourse",
+      "lastWork": "yes...",
+      "codeAcademy": "sure",
+      "coderByte": "sure",
+      "beatles": "prefers rollings stones",
+      "comments": [
+        {
+          "comment": "study session 1 => infinity ok",
+          "day": 1489418109099
+        }
+      ],
+      "id": 12
+    },
+    {
+      "name": "segona prova",
+      "promo": "4",
+      "telf": "123123123",
+      "experienceProgramming": "yes",
+      "lastWork": "no",
+      "codeAcademy": "no",
+      "coderByte": "no",
+      "beatles": "no",
+      "comments": [
+        {
+          "comment": "🤓",
+          "day": 1489498422371
+        }
+      ],
+      "id": 13
     }
   ]
 }
