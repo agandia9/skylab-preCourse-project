@@ -87,7 +87,7 @@
       "coderByte": "true",
       "github": "",
       "telf": "123456780",
-      "caution": true,
+      "caution": false,
       "comments": [
         {
           "comment": "session1 ok",
@@ -99,10 +99,15 @@
         },
         {
           "day": 1489418500671
+        },
+        {
+          "comment": "remove from caution...",
+          "day": 1489577022399
         }
       ],
       "beatles": "maybe pass",
       "promo": "2",
+      "comment": "remove from caution...",
       "id": 3
     },
     {
@@ -147,7 +152,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
-      "caution": false,
+      "caution": true,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -162,7 +167,7 @@
           "day": "22/09"
         }
       ],
-      "promo": "3",
+      "promo": "5",
       "beatles": "NOP.",
       "id": 5
     },
@@ -201,7 +206,6 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
-      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -221,6 +225,7 @@
       ],
       "promo": "3",
       "beatles": "ok",
+      "caution": false,
       "id": 7
     },
     {
@@ -231,7 +236,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
-      "caution": false,
+      "caution": true,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -340,8 +345,17 @@
         },
         {
           "day": 1489485138504
+        },
+        {
+          "comment": "set as caution",
+          "day": 1489577038419
+        },
+        {
+          "comment": "set as caution",
+          "day": 1489577935112
         }
       ],
+      "comment": "set as caution",
       "id": 11
     },
     {
@@ -397,6 +411,23 @@
       ],
       "comment": "",
       "id": 13
+    },
+    {
+      "name": "prova3",
+      "promo": "3",
+      "telf": "12341234",
+      "experienceProgramming": "no",
+      "lastWork": "no",
+      "codeAcademy": "no",
+      "coderByte": "no",
+      "beatles": "no",
+      "comments": [
+        {
+          "comment": "no pass beatles exam",
+          "day": 1489578043321
+        }
+      ],
+      "id": 14
     }
   ]
 }

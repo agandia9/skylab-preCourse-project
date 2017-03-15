@@ -37,8 +37,14 @@ angular.module('skylabCtrls', [])
 	$scope.updateAlumn = function(info) {
 		let num = info.id
 		console.log($scope.danger)
+
+		if(typeof $scope.danger !== 'undefined'){
 		info.caution = $scope.danger 
+		}else{
+			console.log("not changes in caution")
+		}
 		delete info.id
+		delete $scope.danger
 		if (info.comment) {
 			info.comments.push({
 				comment: info.comment,
