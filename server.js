@@ -4,6 +4,7 @@ var server = jsonServer.create()
 var router = jsonServer.router('data/db.json')
 var app = express()
 var middlewares = jsonServer.defaults()
+var port = process.env.PORT || 3000;
 
 app.use(express.static('public'))
 // app.use('/bower_components',  express.static('bower_components'));
@@ -31,6 +32,6 @@ server.use("/api/students", function(req, res, next) {
 server.use('/api/', router)
 server.use(app)
 
-server.listen(8080, function() {
+server.listen(port, function() {
 	console.log('JSON Server is running')
 })
