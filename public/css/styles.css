@@ -158,7 +158,15 @@
 .alumniDetailsClass > span > input{
 	height: 50px;
 }
-
+.alumniDetailsClassDanger{
+	background-color: #B30000;
+	padding-bottom: 15px;
+	width: 550px;
+	height: initial;
+	padding: 30px;
+	margin-top: 25px;
+	border-radius: 15px;
+}
 
 .modalClass{
 	height: 185px;

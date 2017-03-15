@@ -1,4 +1,4 @@
-<div class="alumniDetailsClass">
+<div ng-class="{'alumniDetailsClass': !info.caution, 'alumniDetailsClassDanger': info.caution}">
 	<small> 🆔 => {{info.id}}</small>
 	<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
 	<a class="btn btn-primary goBack" ng-click="setAsCaution(!info.caution, info)">Caution 🆘</a>

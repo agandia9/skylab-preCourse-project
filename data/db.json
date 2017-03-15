@@ -39,12 +39,16 @@
         {
           "comment": "set as danger! 🆘",
           "day": 1489576848229
+        },
+        {
+          "comment": "set as danger! 🆘",
+          "day": 1489578887327
         }
       ],
       "beatles": "FALSE",
       "promo": "1",
       "caution": true,
-      "comment": "set as danger! 🆘",
+      "comment": "",
       "id": 1
     },
     {
