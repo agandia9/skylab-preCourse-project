@@ -47,7 +47,7 @@
       ],
       "beatles": "FALSE",
       "promo": "1",
-      "caution": true,
+      "caution": false,
       "comment": "",
       "id": 1
     },
@@ -80,7 +80,7 @@
       "beatles": "NOP, GO TO RIVENDEL",
       "promo": "2",
       "comment": "",
-      "caution": false,
+      "caution": true,
       "id": 2
     },
     {
@@ -91,7 +91,7 @@
       "coderByte": "true",
       "github": "",
       "telf": "123456780",
-      "caution": false,
+      "caution": true,
       "comments": [
         {
           "comment": "session1 ok",
@@ -114,7 +114,7 @@
         }
       ],
       "beatles": "maybe pass",
-      "promo": "2",
+      "promo": "5",
       "comment": "",
       "id": 3
     },
@@ -126,7 +126,7 @@
       "coderByte": true,
       "github": "",
       "telf": "123456789",
-      "caution": true,
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -292,7 +292,7 @@
     },
     {
       "name": "Falcon",
-      "promo": "5",
+      "promo": "2",
       "telf": "65432198",
       "caution": false,
       "experienceProgramming": "yes",
