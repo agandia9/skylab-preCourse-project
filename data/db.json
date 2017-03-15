@@ -1,13 +1,13 @@
 {
   "students": [
     {
-      "name": "Sheldon Cooper",
+      "name": "Sheldon Facker",
       "experienceProgramming": "YES",
       "lastWork": "working hard",
       "codeAcamedy": "TRUE",
       "coderByte": "false",
       "github": "",
-      "telf": "123456789",
+      "telf": "123456700",
       "comments": [
         {
           "comment": "session1 ok",
@@ -67,7 +67,7 @@
           "day": 1489480764440
         }
       ],
-      "beatles": "yes.. PASS NOOB",
+      "beatles": "NOP, GO TO RIVENDEL",
       "promo": "2",
       "comment": "",
       "id": 2
@@ -330,7 +330,7 @@
     },
     {
       "name": "juanma",
-      "promo": 1,
+      "promo": "1",
       "telf": "1234567890",
       "experienceProgramming": "ofcourse",
       "lastWork": "yes...",
@@ -341,13 +341,26 @@
         {
           "comment": "study session 1 => infinity ok",
           "day": 1489418109099
+        },
+        {
+          "comment": "study session 2 ok too, like always",
+          "day": 1489574484822
+        },
+        {
+          "comment": "study session 3 amazing",
+          "day": 1489574577012
+        },
+        {
+          "comment": "change from 2º promo => 1º",
+          "day": 1489574601888
         }
       ],
+      "comment": "",
       "id": 12
     },
     {
       "name": "segona prova",
-      "promo": "4",
+      "promo": "5",
       "telf": "123123123",
       "experienceProgramming": "yes",
       "lastWork": "no",
@@ -358,8 +371,13 @@
         {
           "comment": "🤓",
           "day": 1489498422371
+        },
+        {
+          "comment": "✅",
+          "day": 1489574652537
         }
       ],
+      "comment": "",
       "id": 13
     }
   ]

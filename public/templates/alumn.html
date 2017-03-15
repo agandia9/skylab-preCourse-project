@@ -1,13 +1,15 @@
 <div class="alumniDetailsClass">
+	<small> 🆔 => {{info.id}}</small>
 	<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
-	<p>
-		<h3>Name  {{info.name}} <small>Num 🆔 => {{info.id}}</small></h3>
-		<input type="text" ng-model="info.name" ng-value="info.name"></input>
-	</p>
-	<p>
-		<h4>Promo  {{info.promo}}</h4>
+	<span>
+		<h3>Name: </h3>
+		<input type="text" ng-model="info.name" ng-value="info.name"></input> 
+	</span> 
+	<span>
+		<h3>Promo: </h3>
 		<input type="text" ng-model="info.promo" ng-value="info.promo"></input>
-	</p>
+	</span>
+
 	<p>Telf
 		<input type="text" ng-value="info.telf" ng-model="info.telf"></input>
 	</p>

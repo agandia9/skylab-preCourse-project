@@ -8,7 +8,7 @@
 <div class="alumniClass">
 	<h2>Students</h2>
 	<div class="alumniClassDetails" ng-repeat="alumn in alumni | filter:myFilter">
-		<h3>Name: {{alumn.name}} <small>Num ID => {{alumn.id}}</small></h3>
+		<h3>Name: {{alumn.name}} <small>🆔 => {{alumn.id}}</small></h3>
 		<a class="btn btn-primary" href="#alumn" ng-click="update(alumn.id)" value="Modify">Modify</a>
 	</div>
 </div>
