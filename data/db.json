@@ -107,11 +107,15 @@
         {
           "comment": "remove from caution...",
           "day": 1489577022399
+        },
+        {
+          "comment": "set as caution",
+          "day": 1489578979341
         }
       ],
       "beatles": "maybe pass",
       "promo": "2",
-      "comment": "remove from caution...",
+      "comment": "",
       "id": 3
     },
     {
