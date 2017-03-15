@@ -35,10 +35,16 @@
         },
         {
           "day": 1489485241927
+        },
+        {
+          "comment": "set as danger! 🆘",
+          "day": 1489576848229
         }
       ],
       "beatles": "FALSE",
       "promo": "1",
+      "caution": true,
+      "comment": "set as danger! 🆘",
       "id": 1
     },
     {
@@ -70,6 +76,7 @@
       "beatles": "NOP, GO TO RIVENDEL",
       "promo": "2",
       "comment": "",
+      "caution": false,
       "id": 2
     },
     {
@@ -80,6 +87,7 @@
       "coderByte": "true",
       "github": "",
       "telf": "123456780",
+      "caution": true,
       "comments": [
         {
           "comment": "session1 ok",
@@ -94,7 +102,7 @@
         }
       ],
       "beatles": "maybe pass",
-      "promo": "3",
+      "promo": "2",
       "id": 3
     },
     {
@@ -105,6 +113,7 @@
       "coderByte": true,
       "github": "",
       "telf": "123456789",
+      "caution": true,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -138,6 +147,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -164,6 +174,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -190,6 +201,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -219,6 +231,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -245,6 +258,7 @@
       "coderByte": false,
       "github": "",
       "telf": "123456789",
+      "caution": false,
       "comments": [
         {
           "comment": "session 1 ok",
@@ -267,6 +281,7 @@
       "name": "Falcon",
       "promo": "5",
       "telf": "65432198",
+      "caution": false,
       "experienceProgramming": "yes",
       "lastWork": "¿?",
       "codeAcademy": "yes",
@@ -300,6 +315,7 @@
       "name": "Doctor muerte",
       "promo": "2",
       "telf": "654123789",
+      "caution": false,
       "experienceProgramming": "no",
       "lastWork": "yes",
       "codeAcademy": "maybe",
@@ -332,6 +348,7 @@
       "name": "juanma",
       "promo": "1",
       "telf": "1234567890",
+      "caution": false,
       "experienceProgramming": "ofcourse",
       "lastWork": "yes...",
       "codeAcademy": "sure",
@@ -362,6 +379,7 @@
       "name": "segona prova",
       "promo": "5",
       "telf": "123123123",
+      "caution": false,
       "experienceProgramming": "yes",
       "lastWork": "no",
       "codeAcademy": "no",

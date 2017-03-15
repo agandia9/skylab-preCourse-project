@@ -36,6 +36,15 @@
 	margin-top: 8px;
 	border-radius: 15px;
 }
+.alumniClassDetailsDanger {
+	background-color: #B30000;
+	padding-bottom: 5px;
+	width: 550px;
+	height: initial;
+	padding: 20px;
+	margin-top: 8px;
+	border-radius: 15px;
+}
 
 .alumniDetailsClass {
 	background-color: #33597f;
@@ -149,6 +158,8 @@
 .alumniDetailsClass > span > input{
 	height: 50px;
 }
+
+
 .modalClass{
 	height: 185px;
     width: 400px;

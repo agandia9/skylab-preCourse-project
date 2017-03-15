@@ -1,6 +1,7 @@
 <div class="alumniDetailsClass">
 	<small> 🆔 => {{info.id}}</small>
 	<a class="btn btn-primary goBack" href="#/" value="Modify">Go Back</a>
+	<a class="btn btn-primary goBack" ng-click="setAsCaution(!info.caution, info)">Caution 🆘</a>
 	<span>
 		<h3>Name: </h3>
 		<input type="text" ng-model="info.name" ng-value="info.name"></input> 

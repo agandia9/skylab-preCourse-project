@@ -7,7 +7,7 @@
 </div>
 <div class="alumniClass">
 	<h2>Students</h2>
-	<div class="alumniClassDetails" ng-repeat="alumn in alumni | filter:myFilter">
+	<div ng-class="{'alumniClassDetails': !alumn.caution, 'alumniClassDetailsDanger': alumn.caution}" ng-repeat="alumn in alumni | filter:myFilter">
 		<h3>Name: {{alumn.name}} <small>🆔 => {{alumn.id}}</small></h3>
 		<a class="btn btn-primary" href="#alumn" ng-click="update(alumn.id)" value="Modify">Modify</a>
 	</div>

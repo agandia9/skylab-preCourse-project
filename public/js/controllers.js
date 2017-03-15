@@ -21,9 +21,23 @@ angular.module('skylabCtrls', [])
 			$scope.info = data
 			console.log(data)
 		})
+	$scope.setAsCaution = function(danger, info){
+		if(danger == true){
+			console.log("student set as danger")
+			$scope.danger = true;
+		}
+		else{
+			$scope.danger = false;
+			console.log("student set NO DANGER")
+		}
+		console.log($scope.danger)
+		return danger
+	}
 
 	$scope.updateAlumn = function(info) {
 		let num = info.id
+		console.log($scope.danger)
+		info.caution = $scope.danger 
 		delete info.id
 		if (info.comment) {
 			info.comments.push({
